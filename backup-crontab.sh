@@ -6,7 +6,7 @@ date=`date +%d%m%y`
 source .env
 encrypt_password=${ENCRYPT_PASSWORD}
 backup_path=${BACKUP_CRONTAB_PATH}
-retention=30
+retention=${RETENTION}
 
 # In case the crontab backup directory doesn't exists, create it
 if [[ ! -d ${backup_path} ]]; then
