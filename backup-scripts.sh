@@ -3,7 +3,7 @@
 # Variables
 me=`whoami`
 date=`date +%d%m%y`
-source .env
+source /Users/ivansantos/scripts/.env
 encrypt_password=${ENCRYPT_PASSWORD}
 source_files=${SCRIPTS_DIR}
 backup_path=${BACKUP_SCRIPTS_PATH}

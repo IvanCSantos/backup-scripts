@@ -3,7 +3,7 @@
 # Variables
 me=`whoami`
 year=`date +%Y`
-source .env
+source /Users/ivansantos/scripts/.env
 backup_path=${BACKUP_YEARLY_PATH}
 yearly_backup_path=${BACKUP_YEARLY_PATH}/${year}
 alreadyRanFlag=${backup_path}/.yearly-backup-flag
